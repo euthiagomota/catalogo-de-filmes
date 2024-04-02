@@ -3,7 +3,7 @@ import { IsNotEmpty } from "class-validator"
 
 export class CreateFilmeDto {
 
-    @IsNotEmpty({message: 'Por favor, digite o título do filme.'})
+    @IsNotEmpty({message: 'Por favor, digite o título do filme mano.'})
    title: string
 
     @IsNotEmpty({message: 'Por favor, digite a descrição do filme.'})
